@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guffran - Full Stack Developer & AI Engineer</title>
+    <meta name="description"
+        content="Portfolio of Guffran - Full Stack Web Developer, Machine Learning Engineer, and MERN Stack Developer">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <span class="gradient-text">Guffran</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center min-vh-100">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="hero-content">
+                        <h1 class="hero-title mb-4">
+                            Hi, I'm <span class="gradient-text"> Mohammad Guffran</span>
+                        </h1>
+                        <div class="typing-container mb-4">
+                            <span class="typing-text" id="typingText"></span>
+                            <span class="cursor">|</span>
+                        </div>
+                        <p class="hero-description mb-5">
+                            Passionate about creating innovative solutions through code.
+                            Specializing in AI/ML Engineering, Full Stack Development and Data Science.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="img/Mohammad guffran final resume.pdf" class="btn btn-primary btn-lg me-3 mb-3">
+                                <i class="fas fa-download me-2"></i>Download Resume
+                            </a>
+                            <a href="#projects" class="btn btn-outline-light btn-lg mb-3">
+                                <i class="fas fa-eye me-2"></i>View Projects
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="hero-image">
+                        <div class="floating-card">
+                            <div class="code-snippet">
+                                <div class="code-header">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                </div>
+                                <div class="code-body">
+                                    <div class="code-line">
+                                        <span class="keyword">const</span>
+                                        <span class="variable">developer</span> = {
+                                    </div>
+                                    <div class="code-line indent">
+                                        <span class="property">name:</span>
+                                        <span class="string">'Guffran'</span>,
+                                    </div>
+                                    <div class="code-line indent">
+                                        <span class="property">skills:</span>
+                                        <span class="array">['React', 'Node.js', 'AI/ML']</span>,
+                                    </div>
+                                    <div class="code-line indent">
+                                        <span class="property">passion:</span>
+                                        <span class="string">'Innovation'</span>
+                                    </div>
+                                    <div class="code-line">}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Get to know me better</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <!-- Image Column -->
+                <div class="col-lg-5 mb-4 mb-lg-0" data-aos="fade-right">
+                    <div class="about-image text-center">
+                        <img src="img/bg_pic_1.png"
+                            alt="About Me" class="img-fluid rounded-4 shadow-lg mb-3">
+                        <div class="about-stats d-flex justify-content-center gap-4">
+                            <div class="stat-item">
+                                <h4>110+</h4>
+                                <p>Problems Solved</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>6+</h4>
+                                <p>Projects Completed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Text Content Column -->
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="about-content">
+                        <h3 class="mb-4">I'm Guffran, a passionate developer</h3>
+                        <p class="mb-4">
+                            <!-- On small screens, float the image left inside the paragraph -->
+                            <!-- <img src="img/bg_pic_1.png"
+                                alt="About Me" class="img-fluid rounded-4 shadow-lg d-lg-none float-start me-3 mb-2"
+                                style="max-width:120px;"> -->
+                            I am a final-year B.Tech student with a deep passion for computer technologies and a strong
+                            drive to innovate. My focus lies in Artificial Intelligence/Machine Learning engineering and
+                            full-stack web development using the MERN stack. I enjoy building intelligent, efficient,
+                            and scalable software solutions that solve real-world problems.
+                            <br>
+                            With hands-on experience in Java and Python, I have worked on a wide range of projects that
+                            combine data-driven insights with modern system architecture principles. My technical
+                            expertise also extends to data science, where I analyze and model complex datasets to
+                            extract meaningful patterns and predictions.
+                        </p>
+                        <p class="mb-4">
+                            I have a solid foundation in core computer science concepts, including algorithms, data
+                            structures, object-oriented programming, and operating systems, which enables me to approach
+                            challenges methodically and solve them efficiently.
+                            <br>
+                            Whether it’s designing backend systems, developing user-friendly interfaces, or deploying ML
+                            models, I thrive on turning ideas into reality through clean, optimized, and maintainable
+                            code. I’m continuously learning and eager to contribute to impactful tech-driven solutions.
+                        </p>
+
+                        <!-- Tabs -->
+                        <ul class="nav nav-pills mb-4" id="aboutTabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="skills-tab" data-bs-toggle="pill"
+                                    data-bs-target="#skills-content" type="button">Skills</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="experience-tab" data-bs-toggle="pill"
+                                    data-bs-target="#experience-content" type="button">Experience</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="education-tab" data-bs-toggle="pill"
+                                    data-bs-target="#education-content" type="button">Education</button>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content" id="aboutTabsContent">
+                            <div class="tab-pane fade show active" id="skills-content">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <h6 class="fw-semibold mb-2">Languages</h6>
+                                        <div class="skill-tags">
+                                            <span class="badge bg-primary">C</span>
+                                            <span class="badge bg-primary">Python</span>
+                                            <span class="badge bg-primary">JavaScript</span>
+                                            <span class="badge bg-primary">Java</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6 class="fw-semibold mb-2">MERN Stack</h6>
+                                        <div class="skill-tags">
+                                            <span class="badge bg-success">React</span>
+                                            <span class="badge bg-success">Node.js</span>
+                                            <span class="badge bg-success">Express</span>
+                                            <span class="badge bg-success">MongoDB</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6 class="fw-semibold mb-2">AI/ML</h6>
+                                        <div class="skill-tags">
+                                            <span class="badge bg-info">Artificial Intelligence</span> <span
+                                                class="badge bg-info">Machine Learning</span> <span
+                                                class="badge bg-info">Deep Learning</span> <span
+                                                class="badge bg-info">Supervised Learning</span> <span
+                                                class="badge bg-info">Unsupervised Learning</span> <span
+                                                class="badge bg-info">Reinforcement Learning</span> <span
+                                                class="badge bg-info">Neural Networks</span> <span
+                                                class="badge bg-info">Computer Vision</span> <span
+                                                class="badge bg-info">Natural Language Processing</span> <span
+                                                class="badge bg-info">Model Evaluation</span> <span
+                                                class="badge bg-info">Feature Engineering</span> <span
+                                                class="badge bg-info">TensorFlow</span> <span
+                                                class="badge bg-info">PyTorch</span> <span
+                                                class="badge bg-info">Scikit-learn</span>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6 class="fw-semibold mb-2">Data Analysis</h6>
+                                        <div class="skill-tags">
+                                            <span class="badge bg-info">Excel</span> <span
+                                                class="badge bg-info">Statistics</span> <span
+                                                class="badge bg-info">Python Programming</span> <span
+                                                class="badge bg-info">Data Visualization</span> <span
+                                                class="badge bg-info">NumPy</span> <span
+                                                class="badge bg-info">Pandas</span> <span class="badge bg-info">BI
+                                                Tools</span> <span class="badge bg-info">SQL Databases</span> <span
+                                                class="badge bg-info">Machine Learning</span> <span
+                                                class="badge bg-info">Deep Learning</span> <span
+                                                class="badge bg-info">Natural Language Processing</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="experience-content">
+                                <div class="experience-item mb-3">
+                                    <h6 class="fw-semibold">Practiced Projects</h6>
+                                    <p class="text-muted mb-0">Carbon Footprint Calculator, Rating System, and many more
+                                    </p>
+                                </div>
+                                <div class="experience-item">
+                                    <h6 class="fw-semibold">Freelance Projects</h6>
+                                    <p class="text-muted mb-0">E-Commerce, Portfolio Website, Ed-Tech Platform</p>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="education-content">
+                                <div class="education-item mb-3">
+                                    <h6 class="fw-semibold">Bachelor's Of Technology</h6>
+                                    <p class="text-muted mb-0">JNTUH-UCESTH | Hyderabad | 2022–2026</p>
+                                </div>
+                                <div class="education-item mb-3">
+                                    <h6 class="fw-semibold">Intermediate (MPC)</h6>
+                                    <p class="text-muted mb-0">Hyderabad Institute of Excellence | 2019-2021 | 94.4%</p>
+                                </div>
+                                <div class="education-item">
+                                    <h6 class="fw-semibold">Secondary School</h6>
+                                    <p class="text-muted mb-0">Excellent High School | Manuguru | 2019 | 9.5 CGPA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title text-white">Technologies & Skills</h2>
+                    <p class="section-subtitle text-light">Tools and technologies I work with</p>
+                </div>
+            </div>
+            <div class="skills-carousel" data-aos="fade-up">
+                <div class="skills-track" id="skillsTrack">
+                    <!-- Skills will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Some of my recent work</p>
+                </div>
+            </div>
+            <div class="row g-4" id="projectsContainer">
+                <!-- Projects will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Solving Stats -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 mb-4" data-aos="fade-up">
+                    <h2 class="section-title">Problem Solving Journey</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card bg-transparent border-light" data-aos="zoom-in">
+                        <div class="card-body text-center p-5">
+                            <h4 class="mb-4">
+                                <strong>LeetCode:</strong> 110+ problems solved |
+                                <strong>GFG:</strong> 40+ problems solved
+                            </h4>
+                            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                                <a href="https://leetcode.com/u/Guffu19/" target="_blank"
+                                    class="btn btn-outline-light btn-lg">
+                                    <i class="fas fa-code me-2"></i>LeetCode Profile
+                                </a>
+                                <a href="https://shorturl.at/35Yw1" target="_blank"
+                                    class="btn btn-outline-light btn-lg">
+                                    <i class="fas fa-code me-2"></i>GeeksforGeeks
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p class="section-subtitle">Ready to work together</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row g-4">
+                        <div class="col-lg-6" data-aos="fade-right">
+                            <div class="contact-info">
+                                <div class="contact-item d-flex align-items-center mb-4">
+                                    <div class="contact-icon me-4">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1">Email</h5>
+                                        <p class="text-muted mb-0">guffssngsh@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item d-flex align-items-center mb-4">
+                                    <div class="contact-icon me-4">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1">Location</h5>
+                                        <p class="text-muted mb-0">Hyderabad, India</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-left">
+                            <div class="social-links">
+                                <h5 class="mb-4">Follow Me</h5>
+                                <div class="row g-3">
+                                    <div class="col-6">
+                                        <a href="https://leetcode.com/u/Guffu19/" target="_blank"
+                                            class="social-link d-flex align-items-center p-3 rounded-3">
+                                            <i class="fas fa-code me-3"></i>
+                                            <span>LeetCode</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="https://github.com/Md-Guffran" target="_blank"
+                                            class="social-link d-flex align-items-center p-3 rounded-3">
+                                            <i class="fab fa-github me-3"></i>
+                                            <span>GitHub</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="https://www.linkedin.com/in/mohammad-guffran-478482222/"
+                                            target="_blank" class="social-link d-flex align-items-center p-3 rounded-3">
+                                            <i class="fab fa-linkedin me-3"></i>
+                                            <span>LinkedIn</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="https://instagram.com/guffu_d" target="_blank"
+                                            class="social-link d-flex align-items-center p-3 rounded-3">
+                                            <i class="fab fa-instagram me-3"></i>
+                                            <span>Instagram</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Guffran. Crafted with passion and code.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
